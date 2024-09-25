@@ -1,0 +1,61 @@
+/* Add this to your main CSS file or in a styled-components approach */
+.resizable-rotatable-node {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.resizable-rotatable-node:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.resizable-rotatable-node strong {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.resizable-rotatable-node p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.delete-button {
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    color: red;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 22px;
+    transition: transform 0.2s ease;
+}
+
+.delete-button:hover {
+    transform: scale(1.2);
+    color: darkred;
+}
+
+.node-handle {
+    background-color: #fff;
+    border: 1px solid #888;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.node-resizer {
+    background-color: rgba(100, 100, 100, 0.6);
+}

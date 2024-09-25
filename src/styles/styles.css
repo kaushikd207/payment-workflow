@@ -1,0 +1,217 @@
+/* src/styles.css
+.app {
+  text-align: center;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.custom-node {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-node button {
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.react-flow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+
+/* Add this to your CSS file or inside a <style> tag */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.app {
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-select {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+button.btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: #0056b3;
+}
+
+button.btn[disabled] {
+  background-color: #c4c4c4;
+  cursor: not-allowed;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="file"] {
+  width: 150px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+}
+
+.tooltip-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.tooltip-container::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+}
+
+.ms-5 {
+  margin-left: 40px;
+}
+
+.react-flow-wrapper {
+  background-color: #f0f4f7;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+  height: 700px;
+  width: 900px;
+}
+
+.react-flow__controls {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.react-flow__minimap {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-flow__background {
+  background-color: #ffffff;
+}
+/* Add these styles to your CSS file */
+
+/* Styling for the Payment Initialize Node */
+.payment-initialize-node {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.node-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.node-amount {
+  margin: 0;
+  font-size: 14px;
+}
+/* General app styles */
+.app {
+  margin-right: 20px;
+}
+
+.form-select {
+  margin-bottom: 20px;
+}
+
+/* Styling for Payment Initialize Node */
+.payment-node {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-node-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.payment-node-amount {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Node map and controls */
+.reactflow-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
